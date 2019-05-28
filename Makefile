@@ -17,3 +17,7 @@ install:
 .PHONY: load
 load:
 	insmod tcp_lixingcong.ko
+
+.PHONY: unload
+unload:
+	rmmod tcp_lixingcong.ko
